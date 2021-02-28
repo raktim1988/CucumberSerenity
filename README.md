@@ -1,38 +1,20 @@
-# Getting started with REST API testing with Serenity and Cucumber 6
-
-This tutorial show you how to get started with REST-API testing using Serenity and Cucumber 6. 
+# Getting started with REST API testing with Serenity and Cucumber
 
 ## Get the code
 
 Git:
 
-    git clone https://github.com/serenity-bdd/serenity-rest-starter.git
-    cd serenity-rest-starter
+https://github.com/raktim1988/CucumberSerenity.git
 
-
-Or simply [download a zip](https://github.com/serenity-bdd/serenity-repository-starter/archive/master.zip) file.
-
-## The starter project
+## The  project
 The best place to start with Serenity and Cucumber is to clone or download the starter project on Github ([https://github.com/serenity-bdd/serenity-rest-starter](https://github.com/serenity-bdd/rest-cucumber4-starter)). 
 This project gives you a basic project setup, along with some sample tests and supporting classes. 
 The starter project comes bundled with a sample SpringBoot web service, and some RestAssured-based tests. 
 The project also illustrates how you might use Freemarker to prepare test data for your scenarios.
 
 ### The project directory structure
-The project has build scripts for both Maven and Gradle, and follows the standard directory structure used in most Serenity projects:
-```Gherkin
-src
-  + main
-  + test
-    + java                                Test runners and supporting code
-    + resources
-      + features                          Feature files 
-          + status
-          + trades
-             record_a_new_trade.feature 
-      + templates                         Freemarker templates and properties files                
+The project has build scripts for  Maven
 
-```
 
 ## A simple GET scenario
 The project comes with two simple scenarios, one that illustrates a GET, and a second that illustrates a POST.

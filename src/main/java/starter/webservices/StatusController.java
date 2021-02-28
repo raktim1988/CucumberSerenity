@@ -13,6 +13,7 @@ public class StatusController {
 
     @RequestMapping(value = "/api/status", method = GET)
     @ApiOperation("Check the status of the API")
+
     public String status() {
         return "Serenity REST Starter project up and running";
     }
